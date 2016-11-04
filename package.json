@@ -2,7 +2,6 @@
   "name": "mochacourse",
   "version": "1.0.0",
   "description": "Example code and repo for my Nettuts.com course: JS Unit Testing with Mocha, Chai, and Sinon ",
-  "main": "server.js",
   "dependencies": {
     "express": "^4.14.0"
   },
@@ -12,6 +11,7 @@
     "sinon": "^1.17.6"
   },
   "scripts": {
+    "start": "node server/app.js",
     "test": "./node_modules/.bin/mocha -R list -b"
   },
   "author": "Luke Schlangen",

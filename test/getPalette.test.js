@@ -1,4 +1,4 @@
-var getPalette = require("../lib/getPalette");
+var getPalette = require("../server/lib/getPalette");
 var expect = require("chai").expect;
 
 describe("getPalette", function () {
