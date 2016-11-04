@@ -1,16 +1,9 @@
-### Tuts+ Course: JavaScript Unit Testing With Mocha, Chai and Sinon
-#### Instructor: Jason Rhodes
+### Express Challenge
+This challenge comes with unit tests. Unit tests are one way of testing if your code is functioning correctly. Currently, this code is failing many of its unit tests. When your code is passing all of the unit tests, you have successfully completed this challange.
 
-In this course, you'll gain a basic understanding of the fundamentals of unit testing your JavaScript code using some popular testing tools. By the end of this course you should feel empowered and excited to start writing tests for all of your JavaScript code, whether it's for the server or the client.
+## Getting Started
 
-Source files for the Tuts+ course: [JavaScript Unit Testing With Mocha, Chai and Sinon](https://courses.tutsplus.com/)
-
-**Available on Tuts+ 28 July, 2014**
-
-#### USAGE NOTES
-
-If you'd like to see the code as it is when the course begins, switch to [the "start" branch](https://github.com/tutsplus/javascript-unit-testing-mocha-chai-sinon/tree/start)
-
-[![Build Status](https://travis-ci.org/jasonrhodes/courses-mocha.svg?branch=master)](https://travis-ci.org/jasonrhodes/courses-mocha)
-
-[![Build Status](https://ci.testling.com/jasonrhodes/courses-mocha.png?style=flat)](http://ci.testling.com/jasonrhodes/courses-mocha)
+1. In order to run the unit tests, you will need to install mocha by running the command `npm install -g mocha` in the command line.
+2. Fork this repository and clone your fork onto your computer.
+3. Install the project's node dependencies by navigating to the project and running the command `npm install`
+4. Run `npm test` to run the unit tests  
