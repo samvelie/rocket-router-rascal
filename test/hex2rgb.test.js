@@ -1,4 +1,4 @@
-var hex2rgb = require("../server/lib/hex2rgb");
+var hex2rgb = require("../lib/server/modules/hex2rgb");
 var expect = require("chai").expect;
 var sinon = require("sinon");
 
