@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Express Unit Tests</title>
-  </head>
-  <body>
-    This is the body
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Spaceship Factory</title>
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <script type="text/javascript" src="vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="js/client.js"></script>
+</head>
+<body>
+  <h1>This Text Should Be Replaced By Ajax "/hello"</h1>
+  <h2>Add a new part to the spaceship</h2>
+  <form id="newPartInfo">
+    <label for="partName">Part Name:</label>
+    <input type="text" id="partName" name="name" placeholder="Part Name"/>
+
+    <label for="numberNeeded">Number Needed for a Spaceship:</label>
+    <input type="number" id="numberNeeded" name="needed" placeholder="Number Needed"/>
+
+    <label for="inStock">Number Already In Stock:</label>
+    <input type="number" id="inStock" name="inStock" placeholder="In Stock"/>
+
+    <input type="submit" value="Add Part" class="addPartButton"/>
+  </form>
+  <h2>Current Parts Inventory</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Part Name
+        </th>
+        <th>
+          # Needed for spaceship
+        </th>
+        <th>
+          # In Stock
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <h2>Number of Spaceships we could build</h2>
+  <h3 id="numberOfSpaceships"></h3>
+</body>
 </html>
