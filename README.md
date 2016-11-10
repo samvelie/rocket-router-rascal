@@ -5,7 +5,7 @@ Rocket, The Router Rascal, has struck the spaceship factory. Per his calling car
 
 1. Fork this repository and clone your fork onto your computer.
 2. Install the project's node dependencies by navigating to the project and running the command `npm install`
-3. Run `npm test` to run the unit tests
+3. Run `npm start` to run the unit tests
 4. When the site is back up and running, it should look like it did before. You should be able to add a new spaceship part to the list when everything is done.
 
 ![alt text](lib/public/images/before.png)
